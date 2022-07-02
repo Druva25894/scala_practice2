@@ -10,5 +10,6 @@ object main {
   def main(args: Array[String]): Unit = {
     var ob = new GFG();
     ob.show();
+
   }
 }
