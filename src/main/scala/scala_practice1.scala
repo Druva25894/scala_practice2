@@ -1,14 +1,29 @@
-class GFG {
-  var name =
+import scala.collection.mutable.ListBuffer
+
+class GFG1 {
+  var name = "druva"
+  var age = "50"
+  var branch = "mechanical"
 
   def show(): Unit =
   {
     println("hello I am " + name + " my age is " +age, "I am from "+branch)
   }
 }
-object main {
+object Smartphone {
   def main(args: Array[String]): Unit = {
-    var ob = new GFG();
+    var ob = new GFG1();
     ob.show();
   }
+}
+object lstbuffer {
+  def main(args: Array[String]): Unit = {
+
+
+  var name = ListBuffer[String]()
+  name += "GeeksForGeeks"
+  name += "gfg"
+  name += "Class"
+  println(name)
+}
 }
