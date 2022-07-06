@@ -24,7 +24,7 @@ object infiniteloop{
 
 object for_loop {
   def main(args: Array[String]): Unit = {
-    val y = 0;
+    val y = 100;
     for (y<- 1 to 7)
       {
         println(y)
