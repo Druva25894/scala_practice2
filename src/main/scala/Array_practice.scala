@@ -1,4 +1,4 @@
-object Array_practice {
+ object Array_practice {
   //main method
   def main(args: Array[String]): Unit = {
     //Allocating values to Array of String
