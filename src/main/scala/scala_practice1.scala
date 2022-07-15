@@ -14,8 +14,10 @@ object Smartphone {
   def main(args: Array[String]): Unit = {
     var ob = new GFG1();
     ob.show();
+
   }
 }
+//<<<<<<< practice_branch
 object lstbuffer {
   def main(args: Array[String]): Unit = {
 
@@ -27,3 +29,5 @@ object lstbuffer {
   println(name)
 }
 }
+//=======
+//>>>>>>> master
